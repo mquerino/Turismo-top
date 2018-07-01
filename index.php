@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 include 'seguranca.php';
 protegePagina();
 //Verifica se a variável nome foi passada. Na primeira vez nunca é passada pelo GET.
@@ -20,8 +20,8 @@ $_SESSION['acessos']=+1; // Conta cada vez que entrou na sessão.
   <fieldset>
 <div class="flex-container">
 <header>
-  <h1 id="prin"><img src="imagens/logo.jpeg" width="24" height="24">ADM Guia Turístico</h1>
-  <!--<img src="imagens/ponte.jpg" background="width="1270" height="100" alt="Ponte">-->
+  <h1 id="prin"><img src="logo.jpeg" width="24" height="24">ADM Guia Turístico</h1>
+  <!--<img src="ponte.jpg" background="width="1270" height="100" alt="Ponte">-->
 </header>
 <fieldset>
 <nav class="nav">
@@ -45,24 +45,24 @@ $_SESSION['acessos']=+1; // Conta cada vez que entrou na sessão.
 </ul>
 <nav id="menu">
 <ul>
-  <li><a href="cidades/armazem.php">Armazém</a></li>
-  <li><a href="cidades/braco.php">Braço do Norte</a></li>
-  <li><a href="cidades/capiva.php">Capivari de Baixo</a></li>
-  <li><a href="cidades/grao.php">Grão Pará</a></li>
-  <li><a href="cidades/gravatal.php">Gravatal</a></li>
-  <li><a href="cidades/imarui.php">Imaruí</a></li>
-  <li><a href="cidades/imbituba.php">Imbituba</a></li>
-  <li><a href="cidades/jaguaruno.php">Jaguaruna</a></li>
-  <li><a href="cidades/laguna.php">Laguna</a></li>
-  <li><a href="cidades/pedras.php">Pedras Grandes</a></li>
-  <li><a href="cidades/pesca.php">Pescaria Brava</a></li>
-  <li><a href="cidades/rio.php">Rio Fortuna</a></li>
-  <li><a href="cidades/sangao.php">Sangão</a></li>
-  <li><a href="cidades/santa.php">Santa Rosa de Lima</a></li>
-  <li><a href="cidades/sao.php">São Ludgero</a></li>
-  <li><a href="cidades/saomar.php">São Martinho</a></li>
-  <li><a href="cidades/treze.php">Treze de Maio</a></li>
-  <li><a href="cidades/tubarao.php">Tubarão</a></li>
+  <li><a href="armazem.php">Armazém</a></li>
+  <li><a href="braco.php">Braço do Norte</a></li>
+  <li><a href="capiva.php">Capivari de Baixo</a></li>
+  <li><a href="grao.php">Grão Pará</a></li>
+  <li><a href="gravatal.php">Gravatal</a></li>
+  <li><a href="imarui.php">Imaruí</a></li>
+  <li><a href="imbituba.php">Imbituba</a></li>
+  <li><a href="jaguaruno.php">Jaguaruna</a></li>
+  <li><a href="laguna.php">Laguna</a></li>
+  <li><a href="pedras.php">Pedras Grandes</a></li>
+  <li><a href="pesca.php">Pescaria Brava</a></li>
+  <li><a href="rio.php">Rio Fortuna</a></li>
+  <li><a href="sangao.php">Sangão</a></li>
+  <li><a href="santa.php">Santa Rosa de Lima</a></li>
+  <li><a href="sao.php">São Ludgero</a></li>
+  <li><a href="saomar.php">São Martinho</a></li>
+  <li><a href="treze.php">Treze de Maio</a></li>
+  <li><a href="tubarao.php">Tubarão</a></li>
   
 </ul>
 </nav>
@@ -103,7 +103,7 @@ $_SESSION['acessos']=+1; // Conta cada vez que entrou na sessão.
 </fieldset>
 
 <fieldset>
-   <center><h4><a href="#prin"><img src="imagens/Topo.jpg" width="50" height="50"></a> </h4></center>
+   <center><h4><a href="#prin"><img src="Topo.jpg" width="50" height="50"></a> </h4></center>
 
 <footer>Copyright &copy; adm.com.br</footer>
 
