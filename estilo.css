@@ -1,0 +1,119 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+<body>
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+    
+}
+
+.article {
+    background:;
+    text-align: left;
+}
+h1{
+    text-align: center
+}
+ul li{
+    display: inline;
+    color: black;
+    padding:0px;
+    margin:10px;
+    background:;
+    list-style:none;
+  }
+header {
+    width: 1270px;
+    height: 100px;
+    background-image:url("imagens/ponte.jpg");
+    image-orientation: center;
+    color: blue;
+	display: block;
+	text-align: center;
+	line-height: 100px;
+}
+.imagem{
+    width: 200%;
+}
+section{
+
+}
+aside {
+    float:right; /*define que o elemento deve flutuar à direita*/
+    background-color: #ff6600; /*cor de fundo*/
+    padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+    width: 15% /*largura*/
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+}
+footer {
+    background: black;
+    color:white;
+    text-align: center;
+}
+.nav {
+    display: inline;
+    background: ;
+    color: white;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+
+#topo {
+	position: fixed;
+	background-image: url('../imagens/topo-repeticao.png');
+	background-repeat: repeat-x;
+	height: 60px;
+	width:100%;
+	top:0;
+	z-index: 9999;
+}
+#corpo-interno {
+    overflow: auto;
+    padding: 5px 2%;
+    margin: 0;
+}
+#sair { 
+	position:absolute;
+	top:65px;
+	right:10px;
+	/*font-size: 1em; */
+	text-align:right;
+}
+</body>
